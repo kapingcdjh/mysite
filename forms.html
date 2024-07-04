@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>форми</title>
+	<link rel="stylesheet" type="text/css" href="css/forms.css">
+</head>
+<body>
+<p>Ми вивчаємо роботу з формами</p>
+<form name="form">
+	<label for="name">Введіть ваше ім'я</label>
+	<input type="tex" name="name" value="Enter your name" size="20" maxlength="30"><br>
+	<label for="surname">Введіть ваше прізвище</label>
+	<input type="tex" name="surname" size="30"><br>
+<input type="text" name="text1" value="не активне поле" disabled>
+<input type="text" name="text2" value="тільки для читань" readonly><br>
+<label for="password">Введіть ваш пароль</label>
+<input type="password" name="password" maxlength="30" size="20"><br>
+<label for="robot">ти робот?</label>
+<input type="radio" name="box" class="radio">Так
+<input type="radio" name="box" class="radio">Ні<br>
+яку мову бажаєте вивчити?<br>
+<input type="checkbox" name="en" class="box">Англіська
+<input type="checkbox" name="fr" class="box">Французька
+<input type="checkbox" name="kr" class="box" checked>корейська
+<input type="checkbox" name="sp" class="box">Іспанська<br>
+<input type="submit" name="submit" value="Submit" class="btn">
+<input type="reset" name="reset" value="Reset" class="btn">
+<button type="submit" class="btn">Submit</button>
+<input type="file" name="file"><br>
+<textarea cols="20" rows="3" wrap="off"></textarea>
+<textarea cols="30" rows="5" wrap="virtual"></textarea>
+<textarea cols="50" rows="7" wrap="physical"></textarea>
+<select name="ln1">
+	<option>Англіська</option>
+	<option>Французька</option>
+<option selected>Корейська</option>
+<option>Іспанська</option>
+</select>
+<select name="ln2" size="2">
+	<option>Англіська</option>
+	<option selected>Французька</option>
+<option>Корейська</option>
+<option>Іспанська</option>
+</select>
+<select name="ln3" multiple>
+	<option>Англіська</option>
+	<option>Французька</option>
+<option>Корейська</option>
+<option>Іспанська</option>
+</select>
+</form>
+</body>
+</html>
